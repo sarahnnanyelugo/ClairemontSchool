@@ -654,9 +654,9 @@ transition:0.7s;
 }
 
 #events{
-    height:300px;
+    height:400px;
     width:100%;
-    background-image:url(../img/pics/events.jpg);
+    background-image:url(../img/pics/events.png);
     color:white;
     text-align:center;
     padding-top:100px;
@@ -745,17 +745,32 @@ font-size:50px !important;
 
 }
 
-
+/* 
 #stat{
  height:430px;
     width:100%;
-    background-image:url(../img/pics/performance.jpg);
-    /* text-align:center; */
+    background-image:url(../img/pics/performance.png);
     padding-top:80px;
     color:#ffff;
     padding-left:60px;
     background-position:center center;
+    background-size:cover;
+  background-repeat:no-repeat;
+} */
+
+
+#stat{
+  height:400px;
+  width:100%;
+  background-image:url(../img/pics/performance.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+  color:#ffff;
+
 }
+
+
+
 
 #stat h1{
     margin-bottom:80px;
@@ -765,7 +780,7 @@ font-size:50px !important;
 
 
 #stat h5{
-    margin-bottom:80px;
+    margin-bottom:50px;
     text-align:center !important;
 }
 .num{
