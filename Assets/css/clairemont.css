@@ -1327,24 +1327,175 @@ margin-top:50px !important;
 }
 
 
-
-
-#testimony{
+#awards1{
   height:400px;
   width:100%;
-  background-image:url(../img/event10.png);
+  background-image:url(../img/slide8.png);
   background-size:cover;
   background-repeat:no-repeat;
   color:#ffff;
-  padding:100px 0 0 100px;
-  background-color:#182146;
-  opacity:0.5px;
 
 }
 
 
 
 
+
+#planner1{
+  height:400px;
+  width:100%;
+  background-image:url(../img/planner.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+  color:#ffff;
+
+}
+
+
+
+
+#lca1{
+  height:400px;
+  width:100%;
+  background-image:url(../img/event16.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+  color:#ffff;
+
+}
+
+
+#liturgy1{
+  height:400px;
+  width:100%;
+  background-image:url(../img/event14.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+  color:#ffff;
+
+}
+
+
+
+
+#news2{
+  height:400px;
+  width:100%;
+  background-image:url(../img/slide55.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+  color:#ffff;
+
+}
+
+
+
+#class1{
+  height:400px;
+  width:100%;
+  background-image:url(../img/students10.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+  color:#ffff;
+
+}
+
+
+#schedule1{
+  height:400px;
+  width:100%;
+  background-image:url(../img/students13.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+  color:#ffff;
+
+}
+
+
+
+
+#boarding1{
+  height:400px;
+  width:100%;
+  background-image:url(../img/history.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+  color:#ffff;
+
+}
+
+
+
+#acts1{
+  height:400px;
+  width:100%;
+  background-image:url(../img/r12.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+  color:#ffff;
+
+}
+
+
+
+
+#dress1{
+  height:400px;
+  width:100%;
+  background-image:url(../img/students4.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+  color:#ffff;
+
+}
+
+
+
+
+#gallery-main1{
+  height:400px;
+  width:100%;
+  background-image:url(../img/r44.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+  color:#ffff;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#testimony{
+  height:400px;
+  width:100%;
+  background-image:url(../img/event18.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+  color:#ffff;
+
+}
+
+
+
+
+
+#advantage1{
+  height:400px;
+  width:100%;
+  background-image:url(../img/year17.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+  color:#ffff;
+
+}
 
 
 
@@ -1438,7 +1589,7 @@ margin-top:50px !important;
  #advantage1{
   height:400px;
   width:100%;
-  background-image:url(../img/admin.png);
+  background-image:url(../img/year17.png);
   background-size:cover;
   background-repeat:no-repeat;
   color:#ffff;
@@ -1474,29 +1625,6 @@ margin-top:50px !important;
 
 
 
-#news2{
-  height:300px;
-  width:100%;
-  /* background-image:url(../img/pics/landing.png); */
-  background-size:cover;
-  background-repeat:no-repeat;
-  color:#ffff;
-  padding:100px 0 0 100px;
-  background-color:#182146;
-  /* opacity:0.5px; */
-}
-
-
-#facilities{
-    height:400px;
-    width:100%;
-    background-image:url(../img/pics/landing.png);
-    background-size:cover;
-    background-repeat:no-repeat;
-    color:#ffff;
-    padding:100px 0 0 100px;
-
-}
 
 
 #brief h4{
@@ -1704,16 +1832,6 @@ table .blue-header {
   }
 
 
-  #testimony{
-    height:400px;
-    width:100%;
-    background-image:url(../img/pics/landing.png);
-    background-size:cover;
-    background-repeat:no-repeat;
-    color:#ffff;
-    padding:100px 0 0 100px;
-
-}
 
 
 .navigation {
