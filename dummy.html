@@ -42,18 +42,19 @@
 
 body{
     /* background-color:#F8F8F8; */
-    background-color:black;
+    background-color:rgb(201, 199, 199);
     color:orange;
 
 }
 .loader {
-  border: 10px dotted #f3f3f3; /* Light grey */
-  border-top: 10px dotted #3498db; /* Blue */
+  /* border: 10px dotted #f3f3f3;
+  border-top: 10px dotted #3498db;
   border-radius: 50%;
   width: 50px;
   height: 50px;
+  animation: spin 2s linear infinite; */
   text-align:center;
-  animation: spin 2s linear infinite;
+
 }
 
 @keyframes spin {
@@ -74,7 +75,14 @@ body{
 
 
         <div class="row" align="center">
-            <div class="loader"></div>
+            <div class="loader col-md-12 flexy">
+                <div class="col-md-4">&nbsp;</div>
+                <div class="col-md-4"> <img src="Assets/img/loading.gif" width="100%">
+                </div>
+
+
+
+            </div>
         </div>
 
 

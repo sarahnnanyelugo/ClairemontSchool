@@ -115,277 +115,11 @@
 
 
 
-
-  <style>
-    .centerBox{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 600px
-}
-
-.categoryWrapper{
-  height: 310px;
-  width: 460px;
-  background: url("http://ohlookawebsite.com/bathroomtestfull.jpg") no-repeat center center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-}
-
-.categoryWrapper:after{
-  position: absolute;
-  top:0;
-  left: 0;
-  right:0;
-  bottom: 0;
-/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a29ca9+0,95909b+99 */
-background: #a29ca9; /* Old browsers */
-background: -moz-linear-gradient(-45deg, #a29ca9 0%, #95909b 99%); /* FF3.6-15 */
-background: -webkit-linear-gradient(-45deg, #a29ca9 0%,#95909b 99%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(135deg, #a29ca9 0%,#95909b 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a29ca9', endColorstr='#95909b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-  content: '';
-  opacity: 0;
-    -webkit-transition: opacity 0.9s ease 0s; 
-}
-
-.categoryWrapper:hover:after{
-  opacity: 0.4;
-}
-
-.categoryWrapper h1{
-  color:white;
-  font-size: 50px;
-  letter-spacing: 2px;
-  -webkit-transition: all 0.15s ease 0s; 
-  position: relative;
-  z-index: 10;
-}
-
-.categoryWrapper:hover h1{
-  transform: translateY(-10px);
-}
-
-.categoryWrapper button{
-  position: absolute;
-  transform: translatey(60px);
-  -webkit-appearance: none;
-  border: none;
-  background: none;
-  color:white;
-  width: 250px;
-  height:50px;
-  font-size: 20px;
-  padding: 0;
-  margin: 0;
-  outline: none;
-  z-index: 10;
-}
-
-.categoryWrapper button span{
-  display: block;
-  position: relative;
-  line-height: 50px;
-  height: 50px;
-  cursor: pointer;
-}
-
-.categoryWrapper button > span:after{
-  content:'';
-  position: absolute;
-  top:0;
-  left: 50%;
-  width: 20px;
-  height: 0;
-  
-  border: 1px solid white;
-  border-left: none;
-  border-bottom: none;
-  
-      transition: height 0.15s ease-out, width 0.15s ease-out 0.15s;
-}
-
-.categoryWrapper:hover button > span:after{
-  width: calc(50% - 1px);
-  height: calc(100% - 2px);
-  transition: width 0.15s ease-out, height 0.15s ease-out 0.15s;
-}
-
-.categoryWrapper button > span:before{
-  content:'';
-  position: absolute;
-  top:0;
-  right: 50%;
-  width: 20px;
-  height: 0;
-  
-  border: 1px solid white;
-  border-right: none;
-  border-bottom: none;
-  
-      transition: height 0.15s ease-out, width 0.15s ease-out 0.15s;
-}
-
-.categoryWrapper:hover button > span:before{
-  width: calc(50% - 1px);
-  height: calc(100% - 2px);
-  transition: width 0.15s ease-out, height 0.15s ease-out 0.15s;
-}
-
-.categoryWrapper button > span > span:before{
-  content:'';
-  position: absolute;
-  bottom:0;
-  right: 0%;
-  width: 1px;
-  height: 1px;
-  opacity: 0;
-  
-}
-
-.categoryWrapper:hover button > span > span:before{
-  opacity: 1;
-  border-bottom: 1px solid white;
-  width: calc(50%);
-  height: 1px;
-  transition: opacity 0s ease-out 0.29s, width 0.15s ease-out 0.3s;
-}
-
-.categoryWrapper button > span > span:after{
-  content:'';
-  position: absolute;
-  bottom:0;
-  left: 0%;
-  width: 1px;
-  height: 1px;
-  opacity: 0;
-  
-}
-
-.categoryWrapper:hover button > span > span:after{
-  opacity: 1;
-  border-bottom: 1px solid white;
-  width: calc(50%);
-  height: 1px;
-  transition: opacity 0s ease-out 0.29s, width 0.15s ease-out 0.3s;
-}
-
-.categoryWrapper button > span > span > span{
-  transition: color 0.15s ease-out 0.3s;
-  color: transparent;
-}
-
-.categoryWrapper:hover button > span > span > span{
-  color:white;
-}
-
-.categoryWrapper button > span > span > span:after{
-  position: absolute;
-  top:0;left:0;right:0;bottom:0;
-  color:#1f2e4d;
-  content: attr(data-attr-span);
-  width: 0%;
-  height: 100%;
-  background:white;
-  white-space: nowrap;
-  text-align: center;
-  margin: auto;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  transition: width 0.2s;
-}
-
-.categoryWrapper button:hover > span > span > span:after{
-  width: 100%;
-}
-
-
-
-Resources
-  </style>
 </head>
 
 
 
 <body>
-  <!-- Start WOWSlider.com BODY section -->
-  <!-- <div id="wowslider-container1" >
-  <div class="ws_images"><ul>
-      <li><img src="Assets/img/slide3.png" alt="ROUND TWO" title="MISSION" id="wows1_1"/>EDUCATING MINDS AND CHANGING THE FUTURE</li>
-      <li><img src="Assets/img/slide6.png" alt="FORD" title="VISION" id="wows1_2"/>To establish Clairemont as a school in innovative and challenging programmes,<br> a fore runner in character building and a beacon for the mindset of excellence, <br>firmly built upon the foundation of Christian values.</li>
-      <li><img src="Assets/img/slide4.png" alt="AND WE CAN MAKE IT ALL LOOK GOOD" title="SCHOOL ETHOES" id="wows1_3"/>CARE, HONESTY, SERVICE</li>
-      <li><img src="Assets/img/slide2.png" alt="THERE SHOULD BE MORE" title="SCHOOL VALUES" id="wows1_4"/>    • We do everything with LOVE<br>
-        • We pursue our goals with CONSTANCE OF PURPOSE<br>
-        • We promote CREATIVITY<br>
-        • We seek CONTINUOUS / IMPROVEMENT
-    </li>
-      <li><img src="Assets/img/slide5.png" alt="slider html" title="OUR SLOGAN" id="wows1_5"/>TOUCHING LIVES FOREVER</li>
-      <li><img src="Assets/img/slide7.png" alt="SOFT WORK" title="GUIDING QUOTE" id="wows1_6"/>LOVE GOD, SERVE GOD, EVERYTHING IS IN THAT</li>
-      <li><img src="Assets/img/slide8.png" alt="JUST ME" title="THEME FOR THE TERM" id="wows1_0"/>I CAN DO ALL THINGS THROUGH CHRIST WHO STRENGTHENS ME<br> (-Phil: 13 )</li>
-
-    </ul></div>
-    <div class="ws_bullets"><div>
-      <a href="#" title="JUST ME"><span><img src="data1/tooltips/1x1.jpg" alt="JUST ME"/>1</span></a>
-      <a href="#" title="ROUND TWO"><span><img src="data1/tooltips/9d108d019a2473aac213a897cc5528d4.jpg" alt="ROUND TWO"/>2</span></a>
-      <a href="#" title="FORD"><span><img src="data1/tooltips/2020_ford_explorer_4drsuv_limitedhybrid_fq_oem_2_815.jpg" alt="FORD"/>3</span></a>
-      <a href="#" title="AND WE CAN MAKE IT ALL LOOK GOOD"><span><img src="data1/tooltips/596d4b2dabc1c8fb2b8b5271.jpg" alt="AND WE CAN MAKE IT ALL LOOK GOOD"/>4</span></a>
-      <a href="#" title="THERE SHOULD BE MORE"><span><img src="data1/tooltips/2020fordexplorerlivenaias.jpg" alt="THERE SHOULD BE MORE"/>5</span></a>
-      <a href="#" title="AND WE MOVE!"><span><img src="data1/tooltips/2020fordexplorerplatinum1041560790473.jpg" alt="AND WE MOVE!"/>6</span></a>
-      <a href="#" title="SOFT WORK"><span><img src="data1/tooltips/36912f5bcea951658ee1c931730e22a1.jpg" alt="SOFT WORK"/>7</span></a>
-    </div></div>
-  <div class="ws_shadow"></div>
-  </div>
-  <script type="text/javascript" src="engine1/wowslider.js"></script>
-  <script type="text/javascript" src="engine1/script.js"></script> -->
-  <!-- End WOWSlider.com BODY section -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -425,11 +159,27 @@ Resources
             <img src="Assets/img/pics/gal1.jpg" width="100%">
 
           </div>
-          <div class="col-md-4 gallery-image"><img src="Assets/img/pics/gal2.jpg" width="100%" height="300px"></div>
+          <div class="col-md-4 gallery-image container2">
+          <img src="Assets/img/pics/gal2.jpg" usemap="#workmap" width="420px" height="279px">
+          <div class="overlay" usemap="#workmap">
+                            <h3 class="text"><i class="icofont-ui-camera" ></i></h3>
+
+
+                          </div>
+
+
+          </div>
 
 
 
+          <img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
 
+<map name="workmap">
+  <area shape="rect" coords="0,0,40,400" alt="Computer" onmouseover="hoverDirection('left')">
+  <area shape="rect" coords="370,0,279,410" alt="Computer2" onmouseover="hoverDirection('right')">
+  <area shape="rect" coords="0,0,400,40" alt="Computer2" onmouseover="hoverDirection('top')">
+    <area shape="rect" coords="0,360,279,410" alt="Computer2" onmouseover="hoverDirection('bottom')">
+</map>
 
 
 
@@ -561,6 +311,16 @@ Resources
     }
     document.getElementById("defaultOpen").click();
 
+
+
+
+function hoverDirection(dir){
+  $(".overlay").removeClass('overlay_top')
+  $(".overlay").removeClass('overlay_bottom')
+  $(".overlay").removeClass('overlay_left')
+  $(".overlay").removeClass('overlay_right')
+$(".overlay").addClass('overlay_'+dir)
+}
   </script>
 
 
