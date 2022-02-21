@@ -520,7 +520,7 @@ text-align:center !important;
     }
   }
 
-
+/* 
 
   .slide {
     width: 100%;
@@ -528,9 +528,7 @@ text-align:center !important;
     overflow: hidden;
     position: relative;
     background-image:url(../img/landing2.png);
-    /* background-color: #000; */
-    /* border: 8px solid #fff;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3); */
+
   }
 
   .slide > div {
@@ -573,7 +571,7 @@ text-align:center !important;
     40% {
       transform: scale(1.2);
     }
-  }
+  } */
 
 
 
