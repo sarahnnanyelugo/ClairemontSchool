@@ -710,19 +710,17 @@ font-weight:bold;
     background-size:cover;
     background-position:center;
     padding-top:60px;
-    padding-bottom:10px;
 }
 
 .date small{
     color:#838387;
     font-size:13px;
-    margin-top:-30px;
 }
 
 .date h1{
     color:#3C5393;
 font-size:45px !important;
-
+margin-bottom:-10px !important
 
 }
 
@@ -776,6 +774,18 @@ font-size:45px !important;
 
 
 
+#newsletter{
+  height:200px;
+  width:100%;
+  background-color:rgb(24,33,70);
+margin-bottom:100px;
+  color:#ffff;
+  padding:70px 0 0 120px;
+
+}
+.newsletter a{
+  color:#DD9933 !important;
+}
 
 #stat h1{
     margin-bottom:80px;
