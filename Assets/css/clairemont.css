@@ -626,6 +626,10 @@ ul li:hover .play{
     padding-top:10px !important;
 }
 
+.pro:active{
+  background-color:white !important;
+
+}
 #welcome{
     /* height:900px; */
 height:fit-content;
@@ -775,7 +779,7 @@ margin-bottom:-10px !important
 
 
 #newsletter{
-  height:200px;
+  height:230px;
   width:100%;
   background-color:rgb(24,33,70);
 margin-bottom:100px;
