@@ -664,8 +664,8 @@
                 <div id="myModal2" class="modal2">
 
                     <!-- The Close Button -->
-                    <span class="close2" ><i class="icofont-close-line"></i></span>
-
+                    <!-- <span class="close2" ><i class="icofont-close-line"></i></span> -->
+                   <button class="btn bn-lg text-light" style="background:inherit; border:none; font-size:40px; float:right" onclick="myModal2Close ()"><i class="icofont-close-line"></i></button>
                     <!-- Modal Content (The Image) -->
                     <img class="modal-content2" id="img01">
 
@@ -1078,16 +1078,16 @@ document.getElementById("defaultOpen").click();
     var span = document.getElementsByClassName("close2")[0];
     
     // When the user clicks on <span> (x), close the modal
-    span.onclick = function() {
-      modal.style.display = "none";
-    }
+    // span.onclick = function() {
+    //   modal.style.display = "none";
+    // }
 
 
 
 
-// function myModal2Close (){
-//     modal.style.display = "none";
-// }
+ function myModal2Close (){
+     modal.style.display = "none";
+ }
 
 
 
@@ -1108,35 +1108,6 @@ document.getElementById("defaultOpen").click();
   <script type="text/javascript" src="engine1/script.js"></script>
 
   <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
-
-
-
-
-<!---for counter-->
-<!-- <script>
-    const counters = document.querySelectorAll('.count');
-    const speed = 200;
-    
-    counters.forEach((counter) => {
-      const updateCount = () => {
-        const target = parseInt(counter.getAttribute('data-target'));
-        const count = parseInt(counter.innerText);
-        const increment = Math.trunc(target / speed);
-    
-        if (count < target) {
-          counter.innerText = count + increment;
-          setTimeout(updateCount, 1);
-        } else {
-          counter.innerText = target;
-        }
-      };
-      updateCount();
-    });
-    
-    
-    </script>
-     -->
-    
 
 
 
