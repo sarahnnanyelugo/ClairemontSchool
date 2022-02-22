@@ -677,7 +677,7 @@ font-weight:bold;
     height:180px;
     width:100%;
     border:solid 1px #E6E6E6;
-    padding:35px;
+    padding:20px;
     padding-left:30px !important;
     margin:10px;
 
@@ -700,23 +700,28 @@ font-weight:bold;
 
 
 .date{
-    height:fit-content;
-    width:100px;
-    border:solid 4px black;
-    border-radius:5px;
+    height:145px;
+    width:145px;
+    /* border:solid 4px black;
+    border-radius:5px; */
     text-align:center;
     margin-right:30px;
-
+    background-image:url(../img/calendar-bg.png);
+    background-size:cover;
+    background-position:center;
+    padding-top:60px;
+    padding-bottom:10px;
 }
 
 .date small{
     color:#838387;
     font-size:13px;
+    margin-top:-30px;
 }
 
 .date h1{
     color:#3C5393;
-font-size:50px !important;
+font-size:45px !important;
 
 
 }
