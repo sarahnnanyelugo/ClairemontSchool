@@ -1276,7 +1276,7 @@ margin-top:50px !important;
 
 }
 
-#location p{
+#location ul li{
     color:#3D528E;
     font-size:17px;
     font-weight:bold;
@@ -1300,7 +1300,7 @@ margin-top:50px !important;
 
 }
 
-#quality p{
+#quality p, ul li{
     color:#3D528E;
     font-size:17px;
     font-weight:bold;
@@ -4034,11 +4034,12 @@ height:65px; */
   cursor: pointer;
   padding-top: 16px ;
   transition: 0.3s;
-  font-size:16px;
+  font-size:18px;
   color:black;
   padding:10px;
   margin-bottom:30px;
-
+text-shadow:1px 1px grey;
+/* font-weight:bold; */
 }
 
 /* Change background color of buttons on hover */
