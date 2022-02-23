@@ -252,10 +252,9 @@ text-align:center;
 
 
 
-#top{
+#top {
     height:57px;
     background-color:#2F3C69;
-    color:white;
     width:100% !important;
     text-align:right;
     padding-right:120px;
@@ -263,8 +262,11 @@ text-align:center;
     font-size:15px;
     font-weight:bold
 }
+#top a{
+  color:white !important;
 
-#top ul li{
+}
+#top ul li {
     margin-left:15px;
 }
 
@@ -1568,6 +1570,14 @@ margin-top:50px !important;
  }
 
 
+ #contact{
+  height:400px;
+  width:100%;
+  background-image:url(../img/slide6.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+  color:#ffff;
+ }
 
 
  #alumnae{
@@ -4290,4 +4300,33 @@ margin-bottom:30px  }
 #alum-form button:hover{
   background-color:rgb(46, 44, 44) !important;
 
+}
+
+
+
+#contactform {
+  position: relative;
+  z-index: 1;
+  /* width: 300px; */
+  padding: 40px 0 10px 40px;
+  background: white;
+  height: fit-content;
+  color: #63605E;
+  margin-top:-350px;
+  margin-left:60px;
+  font-size:14px
+}
+
+#contactform a{
+  color:#EECC98
+}
+#contactform i{
+  font-size:20px;
+}
+
+
+
+#feedback-from input{
+margin-top:30px;
+height:45px;
 }
