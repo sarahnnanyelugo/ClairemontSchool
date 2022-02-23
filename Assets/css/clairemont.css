@@ -926,7 +926,7 @@ margin-bottom:100px;
 border:solid 6px #DFDFDF !important;
 filter: grayscale(100%) !important;
 transition: all 0.7s ease-in-out 0s !important;
-
+margin-left:43px;
 
 }
 /* This is all I added to make it work: .testimonial-box img.hover */
@@ -938,7 +938,9 @@ transition: all 0.7s ease-in-out 0s !important;
 
 }
 
-
+.testimonial-box h6, p{
+  font-weight:bold;
+}
 
 
 .img-area img {
@@ -1565,6 +1567,17 @@ margin-top:50px !important;
   color:#ffff;
  }
 
+
+
+
+ #alumnae{
+  height:400px;
+  width:100%;
+  background-image:url(../img/event.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+  color:#ffff;
+ }
 
 
  #anthem1{
@@ -4253,4 +4266,28 @@ height:65px; */
   .modal-content2 {
     width: 100%;
   }
+}
+
+
+#alum-form label{
+font-weight:bold;
+}
+#alum-form input{
+margin-bottom:30px  }
+
+
+#alum-form small{
+  color:#9E94A1
+}
+
+#alum-form button{
+  background-color:#F26C68 !important;
+  border:none;
+  color:white;
+  width:130px;
+  height:35px
+}
+#alum-form button:hover{
+  background-color:rgb(46, 44, 44) !important;
+
 }
