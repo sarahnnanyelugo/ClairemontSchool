@@ -4366,3 +4366,12 @@ color:#5E595E;
   color:#ffff !important;
   padding:10px !important
 }
+
+#staff-pics h6{
+color:rgb(60,83,147);
+font-weight:bold;
+}
+
+#staff-pics p{
+  color:#808080
+}
