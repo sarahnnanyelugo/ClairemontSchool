@@ -4421,3 +4421,11 @@ font-weight:bold;
   padding:10px !important;;
   font-size:20px !important;
 }
+
+
+.blue-header3 th{
+  background-color:  rgb(64, 66, 75)!important;
+  color:#ffff !important;
+  padding:10px !important;;
+  font-size:20px !important;
+}
