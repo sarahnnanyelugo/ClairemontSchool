@@ -926,7 +926,8 @@ margin-bottom:100px;
 }
 
 .testimonial-box img{
-    height:180px;
+    height:150px;
+    width:150px;
     border-radius:100%;
 border:solid 6px #DFDFDF !important;
 filter: grayscale(100%) !important;
