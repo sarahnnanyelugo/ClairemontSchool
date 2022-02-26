@@ -4429,3 +4429,44 @@ font-weight:bold;
   padding:10px !important;;
   font-size:20px !important;
 }
+.form-process{
+  color:#fff;
+  font-weight:bold;
+  border-radius:50%;
+  text-align:center;
+  height:125px;
+  padding-top:5px;
+  font-size:80px !important;
+}
+.form-title h6{
+margin-left:20px;
+color:rgb(64, 66, 75);
+
+}
+.a{
+  background-color: rgb(12,101,154)!important;
+
+}
+
+.c{
+  background-color:  purple!important;
+
+}
+
+
+ .e{
+  background-color:  green!important;
+
+}
+
+
+.b{
+  background-color:  rgb(221,153,51)!important;
+
+}
+
+.d{
+  background-color: rgb(71, 5, 5)!important;
+
+}
+
