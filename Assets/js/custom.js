@@ -57,54 +57,78 @@ includeHTML();
     })
 
     window.setTimeout(function(){
-      $("#about").removeClass("activenavbar")
-      $("#admission").removeClass("activenavbar")
-      $("#learning").removeClass("activenavbar")
-      $("#student").removeClass("activenavbar")
-      $("#protection").removeClass("activenavbar")
-      $("#gallery").removeClass("activenavbar")
-      $("#news").removeClass("activenavbar")
+      $("#home").removeClass("activenav")
+
+      $("#about").removeClass("activenav")
+      $("#admission3").removeClass("activenav")
+      $("#academics").removeClass("activenav")
+      $("#school").removeClass("activenav")
+      $("#liturgy").removeClass("activenav")
+      $("#news3").removeClass("activenav")
+      $("#pay").removeClass("activenav")
+      $("#alumnae").removeClass("activenav")
+      $("#contact").removeClass("activenav")
+
+
+
+
+
+      if($("#tag").val() =="home")
+      {
+        $("#home").addClass("activenav")
+      }
+
 
       if($("#tag").val() =="about")
       {
-        $("#about").addClass("activenavbar")
+        $("#about").addClass("activenav")
 
       }
-      if($("#tag").val() =="admission")
+      if($("#tag").val() =="admission3")
       {
-        $("#admission").addClass("activenavbar")
+        $("#admission3").addClass("activenav")
       }
-      if( $("#tag").val()=="learning")
+      if( $("#tag").val()=="academics")
       {
-        $("#learning").addClass("activenavbar")
+        $("#academics").addClass("activenav")
       }
 
-      if($("#tag").val() =="student")
+      if($("#tag").val() =="school")
       {
-        $("#student").addClass("activenavbar")
+        $("#school").addClass("activenav")
       }
 
 
-      if($("#tag").val() =="protection")
+      if($("#tag").val() =="liturgy")
       {
-        $("#protection").addClass("activenavbar")
+        $("#liturgy").addClass("activenav")
       }
 
 
-      if($("#tag").val() =="gallery")
+      if($("#tag").val() =="pay")
       {
-        $("#gallery").addClass("activenavbar")
+        $("#pay").addClass("activenav")
       }
 
 
-      if($("#tag").val() =="news")
+      if($("#tag").val() =="news3")
       {
-        $("#news").addClass("activenavbar")
+        $("#news3").addClass("activenav")
       }
 
 
+      if($("#tag").val() =="alumnae")
+      {
+        $("#alumnae").addClass("activenav")
+      }
 
-   },200);
+
+      if($("#tag").val() =="contact")
+      {
+        $("#contact").addClass("activenav")
+      }
+
+   },2000);
 
 
 
@@ -136,107 +160,6 @@ includeHTML();
 
 
 
-
-
-
-
-
-
-
-
-  //for mobile nav
-
-
-//   function openNav() {
-//     document.getElementById("mySidenav").style.width = "80%";
-
-
-//   }
-
-//   function closeNav() {
-//     document.getElementById("mySidenav").style.width = "0";
-
-
-//   }
-
-
-
-//  function myFunction() {
-//   document.getElementById("myDropdown").classList.toggle("show");
-// }
-
-// window.onclick = function(event) {
-//   if (!event.target.matches('.dropbtn')) {
-//     var dropdowns = document.getElementsByClassName("dropdown-content");
-//     var i;
-//     for (i = 0; i < dropdowns.length; i++) {
-//       var openDropdown = dropdowns[i];
-//       if (openDropdown.classList.contains('show')) {
-//         openDropdown.classList.remove('show');
-//       }
-//     }
-//   }
-// }
-
-
-
-// function myFunction2() {
-//   document.getElementById("myDropdown222").classList.toggle("show");
-// }
-
-// window.onclick = function(event) {
-//   if (!event.target.matches('.dropbtn')) {
-//     var dropdowns = document.getElementsByClassName("dropdown-content");
-//     var i;
-//     for (i = 0; i < dropdowns.length; i++) {
-//       var openDropdown = dropdowns[i];
-//       if (openDropdown.classList.contains('show')) {
-//         openDropdown.classList.remove('show');
-//       }
-//     }
-//   }
-// }
-
-
-
-
-// function myFunction3() {
-//   document.getElementById("myDropdown333").classList.toggle("show");
-// }
-
-// window.onclick = function(event) {
-//   if (!event.target.matches('.dropbtn')) {
-//     var dropdowns = document.getElementsByClassName("dropdown-content");
-//     var i;
-//     for (i = 0; i < dropdowns.length; i++) {
-//       var openDropdown = dropdowns[i];
-//       if (openDropdown.classList.contains('show')) {
-//         openDropdown.classList.remove('show');
-//       }
-//     }
-//   }
-// }
-
-
-
-
-
-//for mobile nav
-
-// var dropdown = document.getElementsByClassName("dropdown-btn");
-// var i;
-
-// for (i = 0; i < dropdown.length; i++) {
-//   dropdown[i].addEventListener("click", function() {
-//     this.classList.toggle("active");
-//     var dropdownContent = this.nextElementSibling;
-//     if (dropdownContent.style.display === "block") {
-//       dropdownContent.style.display = "none";
-//     } else {
-//       dropdownContent.style.display = "block";
-//     }
-//   });
-// }
 
 
 //for mobile menu

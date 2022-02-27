@@ -2,6 +2,9 @@ body{
     background-color:#F8F8F8;
 
 }
+.activenav{
+  border-bottom:solid 3px black;
+}
 @media only screen and (max-width:600px) {
     #mobilenav{
     display:block;
@@ -313,7 +316,8 @@ text-align:center;
     outline: none;
     padding: 5px;
     margin-bottom:15px;
-    margin-left:26px;
+    margin-left:13px;
+    margin-right:13px;
     background-color: inherit;
 
     color:black;
