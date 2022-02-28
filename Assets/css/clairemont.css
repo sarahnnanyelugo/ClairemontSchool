@@ -4533,3 +4533,14 @@ background-color:#3C5393;
 padding:20px;
 color:white;
 }
+
+#grade-table tr{
+  border:solid 1px grey;
+  padding:45px;
+}
+
+
+#grade-table td{
+  border:solid 1px grey;
+  padding:5px;
+}
