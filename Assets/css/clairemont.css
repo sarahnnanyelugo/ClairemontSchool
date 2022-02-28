@@ -4505,3 +4505,23 @@ color:rgb(64, 66, 75);
 
 }
 
+#policy h5, h4, h3{
+  color:#3C5393 !important;
+  font-weight:bold
+}
+
+#policy p{
+  color:#5F5F5F !important;
+
+}
+
+#policy2 h5, h4, h3{
+  color:#3C5393 !important;
+  font-weight:bold
+}
+
+#policy2 p{
+  color:#5F5F5F !important;
+  justify-content:center;
+
+}
