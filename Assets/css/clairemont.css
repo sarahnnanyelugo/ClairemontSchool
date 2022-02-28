@@ -4512,6 +4512,7 @@ color:rgb(64, 66, 75);
 
 #policy p{
   color:#5F5F5F !important;
+  text-align:justify !important;
 
 }
 
@@ -4523,5 +4524,12 @@ color:rgb(64, 66, 75);
 #policy2 p{
   color:#5F5F5F !important;
   justify-content:center;
+  text-align:justify !important;
 
+}
+
+#grade-table th{
+background-color:#3C5393;
+padding:20px;
+color:white;
 }
