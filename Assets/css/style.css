@@ -8167,9 +8167,9 @@ h1, h2, h3, h4, h5,
   font-weight: 400;
   font-family: "Poppins", Arial, sans-serif;
   color: #000; }
-
+/* 
 .ftco-section {
-  padding: 7em 0; }
+  padding: 7em 0; } */
 
 .ftco-no-pt {
   padding-top: 0; }
@@ -8293,30 +8293,34 @@ h1, h2, h3, h4, h5,
   -webkit-box-shadow: 0px 10px 40px -30px rgba(0, 0, 0, 0.42);
   -moz-box-shadow: 0px 10px 40px -30px rgba(0, 0, 0, 0.42);
   box-shadow: 0px 10px 40px -30px rgba(0, 0, 0, 0.42); }
-  .testimony-wrap .text, .testimony-wrap .img {
+  .testimony-wrap .text4, .testimony-wrap .img {
     width: 50%; }
     @media (max-width: 767.98px) {
-      .testimony-wrap .text, .testimony-wrap .img {
+      .testimony-wrap .text4, .testimony-wrap .img {
         width: 100%; } }
   .testimony-wrap .img {
     height: 600px; }
     @media (max-width: 767.98px) {
       .testimony-wrap .img {
         height: 450px; } }
-  .testimony-wrap .text {
+  .testimony-wrap .text4 {
     background: white; }
-    .testimony-wrap .text p.h3 {
+    .testimony-wrap .text4 p.h3 {
       font-family: "Playfair Display", serif;
       font-size: 39px;
       font-weight: 700; }
-    .testimony-wrap .text .name {
+    .testimony-wrap .text4 .name {
       color: #dbcc8f;
       font-size: 20px;
       font-weight: 500; }
 
 
 
-
+.a-l{
+  text-align:left !important;
+  line-height:30px !important;
+  color:#3C61BA;
+}
 
 
 
