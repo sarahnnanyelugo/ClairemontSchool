@@ -1513,7 +1513,21 @@ margin-top:50px !important;
 }
 
 
-
+#speak{
+  height:600px;
+  width:100%;
+  background-image:url(../img/clip.png);
+  background-size:500px 500px;
+  background-repeat:no-repeat;
+  background-position:left;
+  background-color: rgb(160,171,176);
+  padding-top:10px;
+  font-weight:bold;
+  font-size:20px;
+  line-height:35px;
+  /* padding-left:30px; */
+  padding-right:20px;
+}
 
 #dress1{
   height:400px;
@@ -1522,6 +1536,7 @@ margin-top:50px !important;
   background-size:cover;
   background-repeat:no-repeat;
   color:#ffff;
+  opacity:0.5;
 
 }
 
