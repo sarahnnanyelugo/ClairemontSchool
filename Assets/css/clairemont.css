@@ -4780,3 +4780,23 @@ line-height:30px;
   /* background-color:white; */
 
 }
+
+.fees-box{
+  height:100px;
+  border:solid 3px grey;
+  background-color:white;
+  padding:30px;
+  margin-right:10px;
+color:#3C589C;
+font-size:20px;
+}
+
+.fees-box i{
+
+color:grey;
+font-size:23px;
+font-weight:bold
+}
+.fees-box:hover{
+  box-shadow:0 0 1px 1px grey;
+}
