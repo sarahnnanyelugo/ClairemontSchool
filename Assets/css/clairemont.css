@@ -1521,7 +1521,6 @@ margin-top:50px !important;
   background-repeat:no-repeat;
   background-position:left;
   background-color: rgb(160,171,176);
-  padding-top:10px;
   font-weight:bold;
   font-size:20px;
   line-height:35px;
@@ -1538,6 +1537,17 @@ margin-top:50px !important;
   background-repeat:no-repeat;
   color:#ffff;
   opacity:0.5;
+
+}
+
+#fees1{
+  height:400px;
+  width:100%;
+  background-image:url(../img/slide33.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+  color:#ffff;
+  /* opacity:0.5; */
 
 }
 
@@ -4745,4 +4755,28 @@ margin-left:62px;
 @keyframes fadeEffect {
   from {opacity: 0;}
   to {opacity: 1;}
+}
+#fees-table {
+border:solid 2px grey;
+font-size:14px;
+line-height:30px;
+/* margin-top:60px; */
+}
+
+#fees-table th{
+  background-color:rgb(13,16,45);
+  color:white;
+  font-weight:bold;
+  border:solid 2px grey;
+}
+#fees-table tr{
+  border:solid 2px grey;
+  background-color:white;
+
+}
+
+#fees-table td{
+  border:solid 2px grey;
+  /* background-color:white; */
+
 }
