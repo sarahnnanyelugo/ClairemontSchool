@@ -1286,10 +1286,10 @@ margin-top:50px !important;
     margin-bottom:100px;
 
 }
-
+/* 
 #profile{
     padding-left:80px;
-}
+} */
 
 #profile p{
     color:#3D528E;
@@ -1306,12 +1306,12 @@ margin-top:50px !important;
     margin-bottom:50px;
 
 }
-
+/* 
 #location{
     padding-left:80px;
     padding-right:80px;
 
-}
+} */
 
 #location ul li{
     color:#3D528E;
@@ -1331,11 +1331,11 @@ margin-top:50px !important;
 
 }
 
-#quality{
+/* #quality{
     padding-left:80px;
     padding-right:80px;
 
-}
+} */
 
 #quality p, ul li{
     color:#3D528E;
