@@ -1550,7 +1550,16 @@ margin-top:50px !important;
   /* opacity:0.5; */
 
 }
+#scholarship{
+  height:400px;
+  width:100%;
+  background-image:url(../img/year17.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+  color:#ffff;
+  /* opacity:0.5; */
 
+}
 #donate{
   height:500px;
   width:100%;
