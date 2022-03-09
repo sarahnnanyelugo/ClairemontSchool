@@ -2099,17 +2099,14 @@ table .blue-header {
 
 
   .accordion2 {
-    /* background-color: blue; */
     color: #444;
     cursor: pointer;
     width: 100%;
     text-align: left;
-    /* border: solid 1px #EAEAEB; */
     outline: none;
     font-family: 'Poppins', sans-serif;
     font-weight:bold;
     font-size:18px;
-    /* box-shadow:0px 0px 2px 2px rgb(221, 219, 219); */
     padding:0;
     border:none !important;
 
@@ -4808,4 +4805,170 @@ font-weight:bold
 }
 .fees-box:hover{
   box-shadow:0 0 1px 1px grey;
+}
+
+
+
+
+
+
+
+
+
+
+.tab18 {
+  overflow: hidden;
+  background-color: rgb(32,35,61);
+  margin-top:50px;
+height:65px;
+margin-left:62px;
+color:white;
+font-weight:bold ;
+
+/* padding-left:150px; */
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab18 button {
+  background-color: inherit;
+ border: none;
+  outline: none;
+  cursor: pointer;
+  padding-top: 16px ;
+  transition: 0.3s;
+  font-size:16px;
+  color:white;
+
+}
+
+/* Change background color of buttons on hover */
+.tab18 button:hover {
+  color: #3C5393;
+  font-weight:bold;
+}
+
+/* Create an active/current tablink class */
+.tab18 .active {
+ color: #3C5393;
+ font-weight:bold;
+
+}
+
+/* Style the tab content */
+.tabcontent18 {
+  display: none;
+
+  border-top: none;
+  background-color:rgb(162, 159, 159);
+  padding:30px;
+font-weight:bold;
+  color:white;
+
+}
+
+
+
+.tabcontent18 {
+  animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+
+
+
+
+
+
+
+
+.accordion18 {
+  color: #444;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  outline: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight:bold;
+  font-size:18px;
+  padding:0;
+
+
+}
+
+.radius{
+  margin-top:-30px;
+  border:solid 1px #fff !important;
+  border-top-left-radius:50px !important;
+  border-top-right-radius:50px !important;
+
+}
+
+.accordion18,
+.sub-accordion18 {
+    margin: 0;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+.accordion__item18 {
+    background: white;
+    /* margin-bottom: 5px; */
+    color: white !important;
+  cursor: pointer;
+  text-align:center;
+  /* border-radius:5px; */
+  border:none !important
+
+
+}
+
+.accordion__link18 {
+    font-size: 28px;
+    position: relative;
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 25px 50px 25px 25px;
+font-family: 'Poppins', sans-serif;
+background-color: rgb(32,35,61);
+border:solid 1px  rgb(32,35,61)!important;
+font-weight:bold;
+margin:5px;
+
+}
+/* .bud2{
+    border-bottom:solid 3px #EAEAEB;
+
+} */
+.accordion__link18:hover{
+    text-decoration:none;
+    background-color: rgb(81, 84, 116);
+    color:white !important;
+
+}
+
+
+.sub-accordion18 {
+    padding: 20px 40px;
+    display: none;
+    height: 0;
+    overflow: hidden;
+    background-color:#fff;
+    font-size:15px;
+font-family: 'Poppins', sans-serif;
+color:#6E6E6E;
+/* border-radius:10px; */
+
+}
+
+
+.accordion__link_active18 + ul{
+    display: block;
+    height: 100%;
 }
