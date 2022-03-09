@@ -4163,7 +4163,7 @@ text-shadow:1px 1px grey;
 
 /* Create an active/current tablink class */
 
- .tab12 .active {
+ .tab12 .active2 {
   border:solid 2px black;
 
 }
@@ -4733,7 +4733,7 @@ margin-left:62px;
 }
 
 /* Create an active/current tablink class */
-.tab16 .active {
+.tab16 .active3 {
  color: #3C5393;
  font-weight:bold;
 
@@ -4936,6 +4936,7 @@ font-weight:bold;
     display: block;
     padding: 25px 50px 25px 25px;
 font-family: 'Poppins', sans-serif;
+
 background-color: rgb(32,35,61);
 border:solid 1px  rgb(32,35,61)!important;
 font-weight:bold;
@@ -4971,3 +4972,97 @@ font-family: 'Poppins', sans-serif;
     display: block;
     height: 100%;
 }
+
+
+
+
+
+
+
+.accordion20 {
+  color: #444;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  outline: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight:bold;
+  font-size:18px;
+  padding:0;
+
+
+}
+
+.radius{
+  margin-top:-30px;
+  border:solid 1px #fff !important;
+  border-top-left-radius:50px !important;
+  border-top-right-radius:50px !important;
+
+}
+
+.accordion20,
+.sub-accordion20 {
+    margin: 0;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+.accordion__item20 {
+    background: white;
+    /* margin-bottom: 5px; */
+    color: white !important;
+  cursor: pointer;
+  text-align:center;
+  /* border-radius:5px; */
+
+
+}
+
+.accordion__link20 {
+    font-size: 18px;
+    position: relative;
+    color:white;
+    text-decoration: none;
+    display: block;
+    padding: 25px 50px 25px 25px;
+font-family: 'Poppins', sans-serif;
+margin:5px;
+background-color: rgb(32,35,61);
+border:solid 1px  rgb(32,35,61)!important;
+}
+/* .bud2{
+    border-bottom:solid 3px #EAEAEB;
+
+} */
+.accordion__link20:hover{
+    text-decoration:none;
+    background-color: rgb(53, 57, 87);
+    color:grey !important;
+
+}
+
+
+.sub-accordion20 {
+    padding: 20px 40px;
+    display: none;
+    height: 0;
+    overflow: hidden;
+    background-color:#fff;
+    font-size:15px;
+font-family: 'Poppins', sans-serif;
+color:#6E6E6E;
+/* border-radius:10px; */
+
+}
+
+
+.accordion__link_active20 + ul{
+    display: block;
+    height: 100%;
+}
+
+
+
+
