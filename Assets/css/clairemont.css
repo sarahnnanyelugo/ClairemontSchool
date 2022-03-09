@@ -368,7 +368,7 @@ text-align:center;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 10000;
     font-weight:bolder;
-    margin-top:16px !important;
+    margin-top:8px !important;
     transition: max-height 0.2s ease-out;
 /* padding:30px; */
 
@@ -377,7 +377,7 @@ text-align:center;
   .dropdown2-content a{
     color:white !important;
 padding:30px;
-font-size:13px;
+font-size:15px;
 line-height:40px;
 padding-left:10px !important;
 
