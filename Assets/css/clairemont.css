@@ -5023,14 +5023,14 @@ font-family: 'Poppins', sans-serif;
 .accordion__link20 {
     font-size: 18px;
     position: relative;
-    color:white;
+    color:rgb(90, 88, 88);
     text-decoration: none;
     display: block;
     padding: 25px 50px 25px 25px;
 font-family: 'Poppins', sans-serif;
 margin:5px;
-background-color: rgb(32,35,61);
-border:solid 1px  rgb(32,35,61)!important;
+background-color: rgb(227,227,227);
+border:solid 1px rgb(227,227,227)!important;
 }
 /* .bud2{
     border-bottom:solid 3px #EAEAEB;
@@ -5038,9 +5038,8 @@ border:solid 1px  rgb(32,35,61)!important;
 } */
 .accordion__link20:hover{
     text-decoration:none;
-    background-color: rgb(53, 57, 87);
-    color:grey !important;
-
+    color:#3C5393 !important;
+font-weight:bold;
 }
 
 
