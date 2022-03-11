@@ -89,7 +89,8 @@ a{
 }
 a:hover{
   text-decoration:none !important;
-  color:blue !important;
+  color:#1969A4 !important;
+  transition:0.5s ease-in-out !important;
 }
 
 
@@ -268,3 +269,12 @@ input[type=text]:focus {
 .form-control:focus{
   box-shadow:none!important;
 }
+
+/* 
+
+.modal-content2{
+  background-color:#fff !important;
+  color:white;
+  font-weight:bolder;
+  padding:20px;
+} */
