@@ -31,3 +31,30 @@ function includeHTML() {
   }
   includeHTML();
   
+
+
+
+
+	// jQuery(document).ready(function() {
+
+  //   var pick=false;
+  //   $("#searchButton").click(function(e){
+  //     pick=!pick;
+  //     console.log(pick)
+  //     if(pick==true){
+  //       $("#search").addClass("Search-container");
+  //       $("#search").removeClass("hid")
+  //         }
+  //         else{
+  //         $("#search").removeClass("Search-container")
+  //         $("#search").addClass("hid");
+  //         }
+  //   })
+
+  //   $("#closeSearch").click(function(e){
+  //     pick=false;
+  //     $("#searchbar").removeClass("Search-container")
+  //         $("#search").addClass("hid");
+
+  //   })
+  // });
