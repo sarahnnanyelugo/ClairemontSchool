@@ -15,6 +15,15 @@
         #main{
             line-height:30px !important
         }
+        #fixed-buttons{
+          top:80px !important
+        }
+        #top{
+          height:85px !important
+        }
+        .main-heading{
+          font-size:30px !important;
+        }
 
         }
 
@@ -34,7 +43,7 @@
         text-shadow:2px 2px black;
         margin-top:80px;
         font-family:sans-serif;
-        font-size:40px !important;
+        font-size:40px ;
     }
 
     #main{
@@ -184,4 +193,20 @@ span a{
   width:70px;
   transition: 1s ease;
 
+}
+
+
+.google{
+  border:none !important;
+  width:120px !important;
+  height:40px !important;
+  background-color:white !important;
+  color:grey;
+  font-weight:bold;
+  box-shadow:0 0 2px 2px rgb(199, 198, 198) !important;
+}
+
+#comment-form input{
+margin-bottom:20px !important;
+height:40px;
 }
