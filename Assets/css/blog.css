@@ -238,7 +238,7 @@ height:40px;
 
 
 
-input[type=text] {
+input[type=search] {
   width: 20px;
 
   border-radius: 6px;
@@ -259,7 +259,7 @@ padding-bottom:32px;
 cursor:pointer;
 }
 
-input[type=text]:focus {
+input[type=search]:focus {
   width: 100%;
   background-color:rgba(255, 255, 255, 0.9);
   height:100px;
