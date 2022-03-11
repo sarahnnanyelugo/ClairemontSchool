@@ -210,3 +210,20 @@ span a{
 margin-bottom:20px !important;
 height:40px;
 }
+
+
+#submit{
+  width:160px;
+  height:45px;
+  border-radius:5px;
+  background-color:grey;
+  border:none;
+  color:white;
+  font-weight:bold;
+}
+
+#submit:hover{
+  border:solid 1px grey;
+  color:grey;
+  background-color:white;
+}
