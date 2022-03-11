@@ -41,7 +41,7 @@
         color:white;
         font-weight:bolder;
         text-shadow:2px 2px black;
-        margin-top:80px;
+        margin-top:10px;
         font-family:sans-serif;
         font-size:40px ;
     }
@@ -143,6 +143,7 @@ span a{
     overflow: auto; /* Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    z-index:2000 !important;
 }
 
 /* Modal Content/Box */
@@ -295,7 +296,7 @@ input[type=search] {
 input[type=search]:focus {
   width: 100%;
 } */
-
+/* 
 .search-container{
   background: #fff;
   height: 30px;
@@ -306,22 +307,13 @@ input[type=search]:focus {
   align-items: center;
   cursor: pointer;
   transition: 0.8s;
-  /*box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-  inset -7px -7px 10px 0px rgba(0,0,0,.1),
- 7px 7px 20px 0px rgba(0,0,0,.1),
- 4px 4px 5px 0px rgba(0,0,0,.1);
- text-shadow:  0px 0px 6px rgba(255,255,255,.3),
-            -4px -4px 6px rgba(116, 125, 136, .2);
-text-shadow: 2px 2px 3px rgba(255,255,255,0.5);*/
+
 box-shadow:  4px 4px 6px 0 rgba(255,255,255,.3),
-            -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+            -4px -4px 6px 0 rgba(116, 125, 136, .2),
   inset -4px -4px 6px 0 rgba(255,255,255,.2),
   inset 4px 4px 6px 0 rgba(0, 0, 0, .2);
 }
 
-.search-container:hover > .search-input{
-  width: 400px;
-}
 
 .search-container .search-input{
   background: transparent;
@@ -347,4 +339,55 @@ box-shadow:  4px 4px 6px 0 rgba(255,255,255,.3),
 
 .search-container:hover{
 animation: hoverShake 0.15s linear 3;
+}
+
+
+
+.search-button{
+  width:100%;
+  height:80px;
+  z-index:999;
+  display:block;
+}
+
+.hid{
+  display:none;
+
+} */
+
+input[type=text] {
+  width: 20px;
+  /* box-sizing: border-box; */
+  /* border: 2px solid #ccc; */
+  border-radius: 6px;
+  font-size: 16px;
+  /* background-color: white; */
+  background-image: url('../img/white-icon2.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  /* padding: 15px 20px 12px 40px; */
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  background-size:30px;
+  background-color:grey;
+  z-index:999;
+position:relative;
+padding:20px;
+padding-right:35px;
+padding-bottom:32px;
+
+cursor:pointer;
+}
+
+input[type=text]:focus {
+  width: 100%;
+  background-color:rgba(255, 255, 255, 0.9);
+  height:100px;
+
+  /* border:solid 1px white; */
+  /* box-shadow:0 0 12px 12px red; */
+
+}
+.form-control:focus{
+  box-shadow:none!important;
 }
