@@ -24,7 +24,9 @@
         .main-heading{
           font-size:30px !important;
         }
-
+        input[type=search]{
+          display:none !important;
+        }
         }
 
 
@@ -37,10 +39,10 @@
 
 
 
-    .main-heading{
-        color:white;
+    .main-heading a{
+        color:white !important;
         font-weight:bolder;
-        text-shadow:2px 2px grey;
+        /* text-shadow:2px 2px grey; */
         margin-top:10px;
         font-family:sans-serif;
         font-size:40px ;
@@ -74,7 +76,9 @@
 .share{
     font-size:18px
 }
-
+.btn-secondary{
+  background-color:rgb(148,39,50) !important;
+}
 .read{
     width:90px !important;
     height:30px !important;
@@ -84,14 +88,17 @@
     font-weight:bold !important;
 }
 
-a{
-    color:rgb(99, 97, 97) !important;
+ .title2 a {
+    color:#8A232A !important;
+    font-weight:bold;
 }
+/*
+
 a:hover{
   text-decoration:none !important;
   color:#1969A4 !important;
   transition:0.5s ease-in-out !important;
-}
+} */
 
 
 
@@ -127,7 +134,7 @@ span a{
 
   #top{
     height:35px;
-    background-color:rgb(209, 207, 207) !important
+    background-color:rgb(92,21,28) !important
   }
 
 
@@ -224,15 +231,15 @@ height:40px;
   width:160px;
   height:45px;
   border-radius:5px;
-  background-color:grey;
+  background-color:rgb(144,37,46);
   border:none;
   color:white;
   font-weight:bold;
 }
 
 #submit:hover{
-  border:solid 1px grey;
-  color:grey;
+  border:solid 1px rgb(144,37,46);
+  color:rgb(144,37,46);
   background-color:white;
 }
 
@@ -249,7 +256,7 @@ input[type=search] {
   -webkit-transition: width 0.4s ease-in-out;
   transition: width 0.4s ease-in-out;
   background-size:30px;
-  background-color:grey;
+  background-color:rgb(157, 6, 16);
   z-index:99;
 position:relative;
 padding:20px;
@@ -263,7 +270,6 @@ input[type=search]:focus {
   width: 100%;
   background-color:rgba(255, 255, 255, 0.9);
   height:100px;
-
 
 }
 .form-control:focus{
