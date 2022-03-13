@@ -335,7 +335,7 @@ input[type=search]:focus {
   color:rgb(151,41,54)
 }
 
-@media screen and (max-height: 450px) {
+@media screen and (max-height: 600px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
