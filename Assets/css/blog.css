@@ -311,6 +311,7 @@ input[type=search]:focus {
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
+  /* display:none; */
 }
 
 .sidenav a {
@@ -327,15 +328,18 @@ input[type=search]:focus {
 } */
 
 .sidenav .closebtn {
-  position: absolute;
+  /* position: absolute; */
   top: 0;
   right: 25px;
   font-size: 36px;
-  margin-left: 50px;
-  color:rgb(151,41,54)
+  /* margin-left: 50px; */
+  color:rgb(151,41,54);
+  float:right;
+  cursor:pointer;
+  /* display:block; */
 }
 
 @media screen and (max-height: 600px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+  /* .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;} */
 }
