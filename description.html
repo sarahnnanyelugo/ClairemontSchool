@@ -9,8 +9,33 @@
     </title>
     <link href="Assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="Assets/icofont/icofont.min.css" rel="stylesheet">
-    <link href="Assets/css/blog.css" rel="stylesheet" type="text/css">
-    <!-- <link href="Assets/css/toggled-search-bar.css" rel="stylesheet" type="text/css"> -->
+    <!-- <link href="Assets/css/red.css" rel="stylesheet" type="text/css"> -->
+
+    <!-- <link href="Assets/css/purple.css" rel="stylesheet" type="text/css"> -->
+
+    <!-- <link href="Assets/css/blue.css" rel="stylesheet" type="text/css"> -->
+
+    <!-- <link href="Assets/css/green.css" rel="stylesheet" type="text/css"> -->
+
+
+    <script>
+        fetch("theme.txt")
+        .then((response) => {
+              return response.text();
+        })
+        .then((text) => {
+            var hrf='Assets/css/'+ text;
+            var lnk = document.createElement('link');
+            lnk.type='text/css';
+            lnk.href=hrf;
+            lnk.rel='stylesheet';
+            document.getElementsByTagName('head')[0].appendChild(lnk);
+            // document.write(lnk);
+        });
+    </script>
+    
+    
+
 
     <link href="Assets/fontawesome-free-5.15.3-web/css/fontawesome.min.css" rel="stylesheet">
     <!-- <link href="Assets/css/radialMenu.min.css" rel="stylesheet"> -->
@@ -60,7 +85,7 @@
 
 
 
-<body  style=" background-image:url(Assets/img/blog-bg4.jpeg);background-repeat:repeat ;background-position:center;height:fit-content;">
+<body  >
     <div class="container-fluid">
 
         <div class="row" w3-include-html="Social.html"></div>
@@ -101,7 +126,7 @@
 Don't waste time any further. Nicely slide into our portal and apply online or come to the school in person. Clairemont School is the right choice. It is the perfect school for the child you love
     </p>
 <!-- <h5>Share This Story</h5> -->
-<div style=" border-bottom:solid 1px grey; padding-bottom:60px" class="flexy">
+<div style=" padding-bottom:60px" class="flexy bord">
     <!-- <a href="#" class="btn  btn-primary text-light read"><i class="icofont-facebook"></i> Share</a>
 
     <a href="#" class="btn  btn-info text-light read"><i class="icofont-twitter"></i> Tweet</a>
@@ -120,7 +145,7 @@ Don't waste time any further. Nicely slide into our portal and apply online or c
 <div class="row" style="margin-top:60px;">
 
 <div class="col-md-12 flexy" style="margin-bottom:20px">
-    <h3  style="font-weight:bold; color:rgb(144,37,46)">Add Your Comments</h3>
+    <h3 class="red-p" style="font-weight:bold; ">Add Your Comments</h3>
     <div class="col-md-4">&nbsp;</div>
 
 
@@ -136,7 +161,7 @@ Don't waste time any further. Nicely slide into our portal and apply online or c
     <textarea placeholder="Message*" class="form-control" rows="4" name="message"></textarea>
 <div class="flexy" style="margin-top:30px">
     <input type="checkbox" id="anonymous" name="anonymous" value="anonymous">
-    <label for="anonymous"  style="font-weight:bold; font-size:17px; color:rgb(144,37,46)"> Anonymous</label>
+    <label for="anonymous"  style="font-weight:bold; font-size:17px; " class="red-p"> Anonymous</label>
 <div class="col-md-5">&nbsp;</div>
 <button id="submit">Submit Comment</button>
 </div>

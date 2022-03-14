@@ -1,3 +1,13 @@
+body{
+  background-image:url(../img/blue-bg.jpeg);
+  background-repeat:repeat;
+  background-position:center;
+  height:fit-content;
+}
+
+
+
+
 @media only screen and (min-width:600px) {
     .flexy{
         display:flex;
@@ -92,7 +102,7 @@ h2, h3, h4, h5, h6, p, a{
     font-size:18px
 }
 .btn-secondary{
-  background-color:rgb(148,39,50) !important;
+  background-color:rgb(2,24,62) !important;
 }
 .read{
     width:90px !important;
@@ -104,7 +114,7 @@ h2, h3, h4, h5, h6, p, a{
 }
 
  .title2 a {
-    color:#8A232A !important;
+    color:rgb(2,24,62) !important;
     font-weight:bold;
 }
 /*
@@ -149,7 +159,7 @@ span a{
 
   #top{
     height:35px;
-    background-color:rgb(92,21,28) !important
+    background-color:rgb(2,24,62) !important
   }
 
 
@@ -163,8 +173,8 @@ span a{
     width:100%; /* Full width */
     height: 100%;/* Full height */
     overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    background-color: rgba(6,46,106,0.4); /* Fallback color */
+    background-color: rgba(6,46,106,0.4); /* Black w/ opacity */
 }
 
 
@@ -246,15 +256,15 @@ height:40px;
   width:160px;
   height:45px;
   border-radius:5px;
-  background-color:rgb(144,37,46);
+  background-color:rgb(6,46,106);
   border:none;
   color:white;
   font-weight:bold;
 }
 
 #submit:hover{
-  border:solid 1px rgb(144,37,46);
-  color:rgb(144,37,46);
+  border:solid 1px rgb(6,46,106);
+  color:rgb(6,46,106);
   background-color:white;
 }
 
@@ -271,7 +281,7 @@ input[type=search] {
   -webkit-transition: width 0.4s ease-in-out;
   transition: width 0.4s ease-in-out;
   background-size:30px;
-  background-color:rgb(157, 6, 16);
+  background-color:rgb(2,24,62);
   z-index:99;
 position:relative;
 padding:20px;
@@ -318,7 +328,7 @@ input[type=search]:focus {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: rgb(151,41,54);
+  color: rgb(6,46,106);
   display: block;
   transition: 0.3s;
 }
@@ -333,7 +343,7 @@ input[type=search]:focus {
   right: 25px;
   font-size: 36px;
   /* margin-left: 50px; */
-  color:rgb(151,41,54);
+  color:rgb(6,46,106);
   float:right;
   cursor:pointer;
   /* display:block; */
@@ -342,4 +352,73 @@ input[type=search]:focus {
 @media screen and (max-height: 600px) {
   /* .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;} */
+}
+
+.bord{
+  border-bottom:solid 1px rgb(6,46,106);}
+
+
+#border2{border-bottom:1px rgb(6,46,106);}
+
+.previous{color:rgb(6,46,106);}
+.next{
+  color:rgb(6,46,106);
+}
+
+#post-head{
+  background-color:rgb(6,46,106);
+}
+
+
+.red-p{
+  color:rgb(6,46,106)
+}
+
+.red-bg{
+  background-color:rgb(6,46,106)
+}
+
+
+
+
+
+.settings{
+  height: 50%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 100px;
+  right: 0 !important;
+  background-color: inherit;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.settings button {
+  padding: 8px 12px 8px 12px;
+  text-decoration: none;
+  font-size: 12px;
+  color: white;
+  display: block;
+  font-weight:bold;
+  transition: 0.3s;
+}
+
+.settings button:hover {
+  color: #f1f1f1;
+}
+
+.settings .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  color:white !important
+}
+
+@media screen and (max-height: 450px) {
+.settings {padding-top: 15px;}
+.settings button{font-size: 18px;}
 }

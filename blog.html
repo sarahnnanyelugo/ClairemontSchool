@@ -10,8 +10,30 @@
 
     <link href="Assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="Assets/icofont/icofont.min.css" rel="stylesheet">
-    <link href="Assets/css/blog.css" rel="stylesheet" type="text/css">
-    <!-- <link href="Assets/css/toggled-search-bar.css" rel="stylesheet" type="text/css"> -->
+    <!-- <link href="Assets/css/red.css" rel="stylesheet" type="text/css"> -->
+    <!-- <link href="Assets/css/green.css" rel="stylesheet" type="text/css"> -->
+
+    <!-- <link href="Assets/css/blue.css" rel="stylesheet" type="text/css"> -->
+    <!-- <link href="Assets/css/purple.css" rel="stylesheet" type="text/css"> -->
+
+
+<script>
+    fetch("theme.txt")
+	.then((response) => {
+  		return response.text();
+	})
+	.then((text) => {
+        var hrf='Assets/css/'+ text;
+        var lnk = document.createElement('link');
+        lnk.type='text/css';
+        lnk.href=hrf;
+        lnk.rel='stylesheet';
+        document.getElementsByTagName('head')[0].appendChild(lnk);
+        // document.write(lnk);
+	});
+</script>
+
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 
     <!-- <link href="Assets/fontawesome-free-5.15.3-web/css/fontawesome.min.css" rel="stylesheet"> -->
@@ -63,7 +85,7 @@
 
 
 
-<body  style=" background-image:url(Assets/img/blog-bg4.jpeg);background-repeat:repeat;background-position:center;height:fit-content;">
+<body  style="">
     <div class="container-fluid">
 
         <div class="row" w3-include-html="Social.html"></div>
@@ -80,6 +102,7 @@
     <div class="col-md-2">
 
 &nbsp;
+
 </div>
 
     <div class="col-md-8 flexy" style="background-color:white; margin-top:10px; padding-right:30px ; margin-bottom:100px; padding-bottom:100px; padding-top:30px ;box-shadow:0 0 1px 1px white; border-radius:5px">
@@ -88,7 +111,7 @@
 
 <div class=" col-md-8" >
 
-<div class="flexy" style="border-bottom:1px solid red; padding-bottom:30px; padding-top:50px;">
+<div class="flexy" class="bord" style=" padding-bottom:30px; padding-top:50px;">
 <div class="col-md-6">
 <h4  class="title2"><a href="description.html">Here is the long awaited period. We are currently accepting applications for the 2022/2023 academic session.<br>
   </a></h4>
@@ -128,7 +151,7 @@
 
 
 
-<div class="flexy" style="border-bottom:1px solid red; padding-top:50px;">
+<div class="flexy bord" style=" padding-top:50px;">
     <div class="col-md-6">
     <h4 class="title2"><a href="description.html" >"Here is the long awaited period. We are currently accepting
         applications for the 2022/2023 academic session</a></h4>
@@ -168,7 +191,7 @@
 
 
 
-    <div class="flexy" style="border-bottom:1px solid red; padding-top:50px;">
+    <div class="flexy" id="border2" style=" padding-top:50px;">
         <div class="col-md-6">
         <h4 class="title2"><a href="description.html" >Here is the long awaited period. We are
             currently accepting applications for the 2022/2023 academic session</a></h4>
@@ -209,8 +232,8 @@
     
     <div style="text-align:center">
 
-        <span ><a href="#" class="previous" style="color:rgb(145,38,46); font-size:15px">&laquo; Previous</a></span>
-       <span><a href="#" class="next" style="color:rgb(145,38,46); font-size:15px">Next &raquo;</a></span>
+        <span ><a href="#" class="previous" style=" font-size:15px">&laquo; Previous</a></span>
+       <span><a href="#" class="next" style=" font-size:15px">Next &raquo;</a></span>
         
 </div>
 
@@ -230,10 +253,12 @@
 
 
     </div>
+    <div class="col-md-2">
+    <!-- <div class="row" w3-include-html="Theme.html"></div> -->
 
     </div>
 
-
+</div>
 
 
 
