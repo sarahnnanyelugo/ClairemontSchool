@@ -213,7 +213,9 @@ text-align:center;
 
 
 
-
+.sub{
+  margin-top:70px
+}
 
 
 
@@ -1087,6 +1089,7 @@ background-color:white;
   padding:100px 0 0 100px;
   color:white;
   text-shadow:3px 3px black;
+  /* background-position:center center; */
 
 }
 
@@ -1389,7 +1392,7 @@ margin-top:50px !important;
 
 }
 
-
+/* 
 
 #history1{
 
@@ -1399,9 +1402,10 @@ margin-top:50px !important;
   background-size:cover;
   background-repeat:no-repeat;
   color:#ffff;
+  background-position:center center;
 
 
-}
+} */
 
 
 #awards1{
@@ -2371,6 +2375,19 @@ font-size:15px;
     border-radius:10px;
   }
 
+  .top-left {
+    position: absolute;
+    top: 28px;
+    left: 26px;
+    font-size:40px;
+  }
+
+
+  .container4 {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
   /* Change background color of buttons on hover */
   .tab3 button:hover {
     background-color: #5e9fdc;
