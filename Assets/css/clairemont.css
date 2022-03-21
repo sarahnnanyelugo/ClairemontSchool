@@ -214,11 +214,21 @@ text-align:center;
 
 
 .sub{
-  margin-top:70px
+  margin-top:70px;
+  height:130px !important;
+
 }
 
 
-
+.top-left{
+  /* position: absolute; */
+  top: 60% !important;
+  left: 30% !important;
+  font-size:20px !important;
+  /* transform: translate(-50%, -50%) */
+  /* padding-top:40px; */
+  /* text-align:center !important */
+}
 }
 
 
@@ -1073,16 +1083,6 @@ background-color:white;
 }
 
 
-#about1{
-    height:400px;
-    width:100%;
-    background-image:url(../img/pics/landing.png);
-    background-size:cover;
-    background-repeat:no-repeat;
-    color:#ffff;
-
-}
-
 .sub-bg{
  /* color:#3C5393; */
  font-weight:bold;
@@ -1104,15 +1104,6 @@ background-color:white;
   transition:1s !important;
   }
 
-#staff-main{
-  height:400px;
-  width:100%;
-  background-image:url(../img/slide6.png);
-  background-size:cover;
-  background-repeat:no-repeat;
-  color:#ffff;
-
-}
 .modal-title4{
   color:#3C5393 !important;
   font-weight:bold;
@@ -1363,7 +1354,7 @@ margin-top:50px !important;
 
 
 
-
+/* 
 
   #history{
     height:400px;
@@ -1376,7 +1367,7 @@ margin-top:50px !important;
     background-color:#182146;
     opacity:0.5px;
 
-}
+} */
 
 
 #history-students{
@@ -1389,46 +1380,6 @@ margin-top:50px !important;
   padding:100px 0 0 100px;
   background-color:#182146;
   opacity:0.5px;
-
-}
-
-/* 
-
-#history1{
-
-  height:400px;
-  width:100%;
-  background-image:url(../img/history.png);
-  background-size:cover;
-  background-repeat:no-repeat;
-  color:#ffff;
-  background-position:center center;
-
-
-} */
-
-
-#awards1{
-  height:400px;
-  width:100%;
-  background-image:url(../img/slide8.png);
-  background-size:cover;
-  background-repeat:no-repeat;
-  color:#ffff;
-
-}
-
-
-
-
-
-#planner1{
-  height:400px;
-  width:100%;
-  background-image:url(../img/planner.png);
-  background-size:cover;
-  background-repeat:no-repeat;
-  color:#ffff;
 
 }
 
@@ -1446,64 +1397,11 @@ margin-top:50px !important;
 }
 
 
-#liturgy1{
-  height:400px;
-  width:100%;
-  background-image:url(../img/event14.png);
-  background-size:cover;
-  background-repeat:no-repeat;
-  color:#ffff;
-
-}
 
 
 
 
-#news2{
-  height:400px;
-  width:100%;
-  background-image:url(../img/slide55.png);
-  background-size:cover;
-  background-repeat:no-repeat;
-  color:#ffff;
 
-}
-
-
-
-#class1{
-  height:400px;
-  width:100%;
-  background-image:url(../img/students10.png);
-  background-size:cover;
-  background-repeat:no-repeat;
-  color:#ffff;
-
-}
-
-
-#schedule1{
-  height:400px;
-  width:100%;
-  background-image:url(../img/students13.png);
-  background-size:cover;
-  background-repeat:no-repeat;
-  color:#ffff;
-
-}
-
-
-
-
-#boarding1{
-  height:400px;
-  width:100%;
-  background-image:url(../img/history.png);
-  background-size:cover;
-  background-repeat:no-repeat;
-  color:#ffff;
-
-}
 
 
 
@@ -1534,67 +1432,6 @@ margin-top:50px !important;
   color:rgb(56, 55, 55);
 }
 
-#dress1{
-  height:400px;
-  width:100%;
-  background-image:url(../img/students4.png);
-  background-size:cover;
-  background-repeat:no-repeat;
-  color:#ffff;
-  opacity:0.5;
-
-}
-
-#fees1{
-  height:400px;
-  width:100%;
-  background-image:url(../img/slide33.png);
-  background-size:cover;
-  background-repeat:no-repeat;
-  color:#ffff;
-  /* opacity:0.5; */
-
-}
-#scholarship{
-  height:400px;
-  width:100%;
-  background-image:url(../img/year17.png);
-  background-size:cover;
-  background-repeat:no-repeat;
-  color:#ffff;
-  /* opacity:0.5; */
-
-}
-#donate{
-  height:500px;
-  width:100%;
-  background-image:url(../img/donate.png);
-  background-size:cover;
-  background-repeat:no-repeat;
-  color:#ffff;
-
-}
-
-
-
-
-#gallery-main1{
-  height:400px;
-  width:100%;
-  background-image:url(../img/r44.png);
-  background-size:cover;
-  background-repeat:no-repeat;
-  color:#ffff;
-
-}
-
-
-
-
-
-
-
-
 
 
 
@@ -1613,120 +1450,18 @@ margin-top:50px !important;
 
 
 
-#advantage1{
-  height:400px;
-  width:100%;
-  background-image:url(../img/year17.png);
-  background-size:cover;
-  background-repeat:no-repeat;
-  color:#ffff;
-
-}
-
-
-
-
-#admin-main{
-  height:400px;
-  width:100%;
-  background-image:url(../img/admin.png);
-  background-size:cover;
-  background-repeat:no-repeat;
-  color:#ffff;
- }
-
-
-
-
- #facilities{
-  height:400px;
-  width:100%;
-  background-image:url(../img/slide4.png);
-  background-size:cover;
-  background-repeat:no-repeat;
-  color:#ffff;
- }
-
-
-
-
- #tour{
-  height:400px;
-  width:100%;
-  background-image:url(../img/event7.png);
-  background-size:cover;
-  background-repeat:no-repeat;
-  color:#ffff;
- }
-
-
- #contact{
-  height:400px;
-  width:100%;
-  background-image:url(../img/slide6.png);
-  background-size:cover;
-  background-repeat:no-repeat;
-  color:#ffff;
- }
-
-
- #alumnae{
-  height:400px;
-  width:100%;
-  background-image:url(../img/event.png);
-  background-size:cover;
-  background-repeat:no-repeat;
-  color:#ffff;
- }
-
-
- #anthem1{
-  height:400px;
-  width:100%;
-  background-image:url(../img/year10.png);
-  background-size:cover;
-  background-repeat:no-repeat;
-  color:#ffff;
- }
-
-
-
-
-
- #faq1{
-  height:400px;
-  width:100%;
-  background-image:url(../img/students14.png);
-  background-size:cover;
-  background-repeat:no-repeat;
-  color:#ffff;
- }
-
-
-
-
- #admission1{
-  height:400px;
-  width:100%;
-  background-image:url(../img/year11.png);
-  background-size:cover;
-  background-repeat:no-repeat;
-  color:#ffff;
- }
 
 
 
 
 
 
- #curriculum1{
-  height:400px;
-  width:100%;
-  background-image:url(../img/slide33.png);
-  background-size:cover;
-  background-repeat:no-repeat;
-  color:#ffff;
- }
+
+
+
+
+
+
 
 
 
@@ -2380,6 +2115,7 @@ font-size:15px;
     top: 28px;
     left: 26px;
     font-size:40px;
+    text-shadow:2px 2px black;
   }
 
 
