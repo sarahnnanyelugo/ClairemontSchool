@@ -318,10 +318,6 @@ text-align:center;
     font-size:16px;
 
 }
-/* .dropbtn2:hover {
-    border-bottom:solid 3px black !important;
-    padding-bottom:20px !important;
-} */
 
 
 .dropdown2 {
@@ -429,7 +425,7 @@ padding-left:10px !important;
     font-size: 15px;
 
   }
-  
+
   /* Add an active class to highlight the current page */
   /* .active {
     background-color: #04AA6D;
@@ -440,7 +436,7 @@ padding-left:10px !important;
   .topnav2 .icon {
     display: none;
   }
-  
+
   /* Dropdown container - needed to position the dropdown content */
   .dropdown2 {
     float: left;
@@ -461,6 +457,16 @@ padding-left:10px !important;
 text-align:center !important;
 
   }
+
+
+
+
+
+
+
+
+
+
   /**addintional class I gave to the links to hepl in padding seperately*/
 
   /* Style the dropdown content (hidden by default) */
@@ -486,7 +492,7 @@ text-align:center !important;
     font-size:16px;
 
   }
-  
+
   /* Add a dark background on topnav links and the dropdown button on hover */
   .topnav2 a:hover, .dropdown2:hover .dropbtn3 {
    text-decoration:none;
@@ -502,7 +508,7 @@ text-align:center !important;
   .dropdown2:hover .dropdown-content2 {
     display: block;
   }
-  
+
   /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
   @media screen and (max-width: 600px) {
     .topnav2 a:not(:first-child), .dropdown2 .dropbtn3 {
@@ -556,7 +562,7 @@ text-align:center !important;
     }
   }
 
-/* 
+/*
 
   .slide {
     width: 100%;
