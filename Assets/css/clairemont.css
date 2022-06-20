@@ -1,3 +1,10 @@
+
+
+
+html{
+  scroll-behavior: smooth;
+}
+
 body{
     background-color:#F8F8F8;
 
@@ -330,10 +337,18 @@ text-align:center;
 
 
 
+  .dropdown3 {
+    /* float: left; */
+
+    overflow: hidden;
+
+
+  }
+
 
 
   .dropdown2 .dropbtn2 {
-    font-size: 16px !important;
+    font-size: 15px !important;
     /* font-weight:bolder !important; */
     border: none;
     outline: none;
@@ -344,19 +359,22 @@ text-align:center;
     background-color: inherit;
 
     color:black;
-
+    font-weight:bold;
   }
 
+
+
+
+
   .dropdown2 .dropbtn2 a {
-    font-size: 16px !important;
-    /* font-weight:bolder !important; */
+    font-size: 15px !important;
     border: none !important;
     outline: none;
     padding: 5px !important;
     background-color: inherit;
     margin-bottom:15px !important;
     color:black ;
-
+    font-weight:bold;
   }
 
 
@@ -378,14 +396,15 @@ text-align:center;
     font-weight:bolder;
     margin-top:8px !important;
     transition: max-height 0.2s ease-out;
-/* padding:30px; */
 
   }
 
+
+
   .dropdown2-content a{
-    color:white !important;
+ color:white !important;
 padding:30px;
-font-size:14px;
+font-size:13px;
 line-height:40px;
 padding-left:10px !important;
 
@@ -394,7 +413,37 @@ padding-left:10px !important;
   .dropdown2-content a:hover{
       color:black !important;
       text-decoration:none;
+      font-weight:bold;
   }
+
+
+
+
+
+/*for alumni dropdown*/
+
+
+hr {
+	height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2998,6 +3047,14 @@ font-weight:bold;
   
 
 
+
+  
+/*end of campus tour*/
+
+
+
+
+
 #curriculum h3{
     text-align:center;
     color:#3C58B2;
@@ -4137,12 +4194,12 @@ margin-top:-40px  }
 }
 
 @-webkit-keyframes zoom {
-  from {-webkit-transform:scale(0)} 
+  from {-webkit-transform:scale(0)}
   to {-webkit-transform:scale(1)}
 }
 
 @keyframes zoom {
-  from {transform:scale(0)} 
+  from {transform:scale(0)}
   to {transform:scale(1)}
 }
 
