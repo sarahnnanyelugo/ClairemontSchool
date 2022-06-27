@@ -429,9 +429,22 @@ hr {
 
 
 
+#portal{
+  background-color:rgb(47,60,105);
+  margin-left:30px;
+  /* font-size:17px; */
+}
 
 
 
+
+#portal:hover{
+  color:rgb(47,60,105) !important;
+    background-color:white;
+  border:solid 2px rgb(47,60,105);
+  transition:0.7s all;
+  font-weight:bold;
+}
 
 
 
